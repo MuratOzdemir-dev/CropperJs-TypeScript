@@ -14,3 +14,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.main {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.preview {
+  width: 700px;
+  height: 400px;
+  display: grid;
+  place-items: center;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+
+.previewContainer {
+  width: 500px;
+  height: 300px;
+}
